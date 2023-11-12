@@ -1,0 +1,299 @@
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+#title {
+  background-color: #000;
+  color: #fff;
+}
+.header {
+  display: flex; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  width: 90%;
+  justify-content: space-evenly;
+}
+.nav-link {
+  color: #fff;
+}
+.iphoneImage {
+  padding-bottom: 1rem;
+  max-width: 10rem;
+}
+.download-field {
+  margin-top: 1%;
+  display: flex; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  width: 70%;
+  justify-content: space-evenly;
+}
+.download-app {
+  display: inline-block;
+  text-align: center;
+  margin-right: 4%;
+  margin-top: 2%; 
+}
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem;
+  text-align: center;
+} 
+.card-body {
+  width: 18rem;
+}
+.card {
+  border-width: 1em;
+}
+#feedbacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background-color: #f0efef;  
+  text-align: center;
+}
+.laptop {
+  width: 55%;
+  padding-top: 0.3rem;
+}
+#partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #f0efef;  
+  margin-top: 0;
+  padding-bottom: 0.3rem;
+}
+.techCrunch {
+  height: 2rem;
+}
+.tnw {
+  height: 4rem;
+}
+.bizinsider{
+  height: 2rem;
+}
+#pricing {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+* {
+  box-sizing: border-box;
+}
+.columns {
+  float: left;
+  width: 18rem;
+  padding: 0.3rem;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.price .head {
+  background-color: #eee;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0.4rem 0;
+}
+.price li {
+  padding: 0.2rem;
+  text-align: center;
+}
+.price .grey {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 5.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+.button:last-child {
+  background-color: #000;
+  color: #fff;
+}
+#footer {
+  background-color: #edf2f4;
+  color: #000000;
+  padding-top: 1rem;
+  text-align: center;
+  height: 4rem;
+}
+
+@media (0 <= width <= 480px) {
+  #title {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-field {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .iphoneImage {
+    margin-left: 33%;
+    width: 30%;
+    padding-bottom: 0;
+  }
+  .download-app {
+    margin-bottom: 10px;
+  }
+  #features {
+    margin: 20px;
+  }
+  .card-body {
+    margin-top: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .card-text {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #partners {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 1rem;
+    padding-top: 0;
+  }
+  .techCrunch, .bizinsider {
+    height: 1rem;
+  }
+  .tnw {
+    height: 2rem;
+  }
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+  
+}
+@media (481px <= width <= 767px) {
+  .download-field {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .iphoneImage {
+    margin-left: 40%;
+    width: 20%;
+    padding-bottom: 0;
+  }
+  .download-app {
+  margin-bottom: 10px;
+  }
+  #features {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-content: center;
+  }
+  .laptop {
+    text-align: center;
+    margin: auto 21%;
+  }
+  .asus_img {
+    width: 100px;
+    height: 100px;
+  }
+  .card-body {
+    margin-top: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .card-text {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #partners {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 1rem;
+    padding-top: 0;
+  }
+  .techCrunch, .bizinsider {
+    height: 1rem;
+  }
+  .tnw {
+    height: 2rem;
+  }
+  #pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    
+  }
+}
+@media (768px <= width <= 991px) { 
+  #features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 50px;
+    align-content: center;
+}
+.laptop {
+  width: 70%;
+}
+}
+@media (992px <= width <= 1199px) {
+  #features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 50px;
+    align-content: center;
+}
+}
